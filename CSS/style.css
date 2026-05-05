@@ -10,6 +10,12 @@ body {
 
 }
 
+.contentMain{
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+}
+
 header {
     background: #222;
     color: #fff;
@@ -17,10 +23,10 @@ header {
     justify-content: space-between;
     height: 100px;
     align-items: center;
-    border-bottom: 5px solid #191970;
+    border-bottom: 5px solid #050508;
 }
 
-.contenrHeader {
+.contentHeader {
     background: #222;
     color: #fff;
     display: flex;
@@ -53,4 +59,25 @@ header nav ul a:hover {
 
 header h1 {
     margin: 20px;
+}
+
+.carrousel article{
+    margin-top: 20px;
+}
+
+.carrousel img{
+    border-radius: 10px;
+
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card{
+    background: white;
+    padding: 20px;
 }
