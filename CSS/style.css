@@ -84,5 +84,27 @@ header h1 {
     border-radius: 10px;
     margin-bottom: 20px;
     border: 1px solid gray;
+}
 
+.extra{
+    background: #ddd;
+    padding: 30px;
+    text-align: center;
+}
+
+/* foote */
+footer{
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+
+}
+
+/*pagina sobre*/
+.paginaSobre h1{
+    color: #191970;
+    padding-top: 10px;
+    border: 1px solid red;
 }
