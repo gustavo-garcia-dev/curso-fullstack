@@ -1,11 +1,4 @@
-let valor = 7;
-console.log (7);
+for (let i = 0; i <=5; i++) {
+    console.log("O valor de i, vale: " + i)
 
-valor = valor + 1
-console.log("agora vale: ", valor)
-
-valor++
-console.log("agora vale", valor)
-
-valor +=4
-console.log("agora vale", valor)
+}
