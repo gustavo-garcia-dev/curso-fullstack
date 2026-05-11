@@ -118,8 +118,11 @@ footer{
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 20px;
   transition: 0.4s;
+  font-weight: bold;
+  border: 1px solid #5c5c77;
+  /* margin-bottom: 10px; */
 }
 
 .active, .accordion:hover {
@@ -131,4 +134,9 @@ footer{
   display: none;
   background-color: white;
   overflow: hidden
+}
+
+.panel p{
+    padding: 20px;
+    line-height: 21px;
 }
